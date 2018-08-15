@@ -9,6 +9,11 @@
             "email": "php@lean-stack.de"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Peesar\\": "src/"
+        }
+    },
     "require": {
         "php": "^7.2",
         "psr/http-server-middleware": "^1.0"
