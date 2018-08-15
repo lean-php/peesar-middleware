@@ -1,6 +1,6 @@
 {
-    "name": "lean-php/psr-http-handlers",
-    "description": "Lean PSR 15 (Http Handlers) implementation",
+    "name": "lean-php/peesar-middleware",
+    "description": "Lean PSR 15 middleware implementation",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -12,5 +12,8 @@
     "require": {
         "php": "^7.2",
         "psr/http-server-middleware": "^1.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^5.0"
     }
 }
