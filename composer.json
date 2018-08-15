@@ -1,5 +1,5 @@
 {
-    "name": "lean/psr-http-handlers",
+    "name": "lean-php/psr-http-handlers",
     "description": "Lean PSR 15 (Http Handlers) implementation",
     "type": "library",
     "license": "MIT",
@@ -10,6 +10,8 @@
         }
     ],
     "require": {
-        "php": "^7.2"
+        "php": "^7.2",
+        "psr/http-server-middleware": "^1.0",
+        "psr/http-server-handler": "^1.0"
     }
 }
