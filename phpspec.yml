@@ -2,3 +2,5 @@ suites:
   default:
     namespace: Peesar
     psr4_prefix: Peesar
+
+formatter.name: pretty
