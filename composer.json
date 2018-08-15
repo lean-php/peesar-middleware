@@ -1,0 +1,15 @@
+{
+    "name": "lean/psr-http-handlers",
+    "description": "Lean PSR 15 (Http Handlers) implementation",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Micha Alt",
+            "email": "php@lean-stack.de"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    }
+}
